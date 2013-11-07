@@ -36,6 +36,15 @@
 			border: 1px solid #003d79;
 		}
 
+		.carousel {
+			border-radius: 2em;
+			border:solid 0.25em;
+			border-color:#003d79;
+			overflow: hidden;
+			max-height: 509px;
+			min-width: 775px;
+		}
+
 		.btn_current {
 			background: white;
 			color: #003d79;
@@ -63,7 +72,8 @@
 			}
 
 			.carousel_img {
-				width: 100%;
+				width: 101%;
+				height:101%;
 			}
 
 			.carousel_link {
